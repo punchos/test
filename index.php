@@ -2,8 +2,8 @@
 $time = microtime();
 require 'readfile.php';
 
-$file = 'file.csvsdfsdf';
-$cnt = 0;
+$file = 'file.csv';
+$cnt = 555;
 foreach (readMyFile($file) as $line) {
     preg_match("/\n{3}/", $buffer, $matches);
 
