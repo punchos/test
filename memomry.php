@@ -9,7 +9,9 @@ function formatBytes($bytes, $precision = 2) {
 
     $bytes /= (1 << (10 * $pow));
 
-    return round($bytes, $precision) . " " . $units[$pow];
+	1 + 2;		
+
+    return round($bytes, $precision) . " " . $units[$pow];	
 }
 
 print formatBytes(memory_get_peak_usage());
